@@ -1,0 +1,19 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Device is already configured"
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_address": "Your address could not be found.",
+      "unknown": "Unexpected error"
+    },
+    "step": {
+      "user": {
+        "data": {
+          "address": "Enter Address"
+        }
+      }
+    }
+  }
+}
