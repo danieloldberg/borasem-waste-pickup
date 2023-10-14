@@ -1,9 +1,7 @@
-<!-- # ![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=)
-# ![Version](https://img.shields.io/github/v/release/Kaptensanders/skolmat-card)
-# ![Installs](https://img.shields.io/badge/dynamic/json?label=Installs&logo=home-assistant&query=%24.skolmat.total&url=https%3A%2F%2Fanalytics.home-assistant.io%2Fcustom_integrations.json) -->
-
 # Borås Energi och Miljö waste pickup custom component for Home Assistant
 Get the next Borås Energi och Miljö waste collection dates directly in Home Assistant.
+
+https://github.com/danieloldberg/borasem-waste-pickup
 
 ## Description
 This component only supports households located and served by Borås Energi och Miljö. It collects data from Borås Energi och Miljö API to create sensor entities based on the household address.
@@ -14,9 +12,12 @@ You may use this information to display in a Lovelace dashboard, or in automatio
 The integration is configured using the UI and the data is updated every 24 hours.
 
 ## Installation
-1. Install with HACS
+1. Install with HACS.
+
+    1a. Add custom repository by going to HACS -> Integrations -> Dots in top right corner -> Custom repositories. Copy [https://github.com/danieloldberg/borasem-waste-pickup](https://github.com/danieloldberg/borasem-waste-pickup) and paste into Repository. Then change Category to Integration, Click Add. Then go to the added repository "Borås Energi och Miljö Waste Pickup" and select install.
+    1b. Will soon be searchable directly in HACS.
 2. Go to Settings -> Devices and Services -> Add integration -> Borås Energi och Miljö Waste Pickup
-3. Enter you address (see information below)
+3. Enter you address (see details below).
 4. Done.
 
 ## Finding the address
